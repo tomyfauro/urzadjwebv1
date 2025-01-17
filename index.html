@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URZA DJ - Rediseño</title>
+    <link rel="icon" href="imgs/favicon-512x512.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header class="header" class="scroll-animation">
+      <div class="container">
+        <div class="social-links left">
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+
+        <div class="logo center"></div>
+
+        <div class="menu-button center">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="social-links right">
+          <a href="#contact">Contáctame</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menú desplegable -->
+    <div class="menu-container">
+      <button class="close-button">&times;</button>
+      <div class="menu-content">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#about">Sobre mi</a></li>
+          <li><a href="#tracks">Musica</a></li>
+          <li><a href="#quehago">Que hago</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span> Disponible para trabajar
+        </div>
+        <h1 class="hero-title">THE HOOD STUDIOS</h1>
+        <!-- <p class="hero-subtitle">Producción musical + DJing</p> -->
+      </div>
+    </section>
+
+    <!-- Imagen debajo del Hero -->
+    <section class="hero-image">
+      <div class="image-texts-above">
+        <span class="left-text">MADRID, ESPAÑA O DONDE QUIERAS..</span>
+        <div class="right-text-container">
+          <span class="right-text1">PRODUCCIÓN MUSICAL</span>
+          <span class="right-text2">+ DJING</span>
+        </div>
+      </div>
+      <img src="/img/imgclaptone.jpg" alt="Imagen de fondo Hero" />
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-text">
+          <h2>Sobre Mí</h2>
+          <p>
+            Soy URZA DJ, un apasionado de la música electrónica que busca
+            transmitir emociones a través de beats únicos. Descubre mi
+            trayectoria y acompáñame en esta experiencia.
+          </p>
+        </div>
+        <div class="about-image">
+          <img
+            style="
+              width: 350px;
+              height: 450px;
+              margin-top: 100px;
+              margin-left: 380px;
+            "
+            src="img/sobre mi img.png"
+            alt="Sobre URZA DJ"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Tracks -->
+    <section id="tracks" class="tracks">
+      <div class="container">
+        <h2 class="musica">MUSICA</h2>
+        <div class="tracks-grid">
+          <div class="track-item">
+            <img src="img/track 1.png" alt="Track 1" />
+            <p>Waves of Love</p>
+          </div>
+          <div class="track-item">
+            <img src="img/track 2.png" alt="Track 2" />
+            <p>AY PAPI</p>
+          </div>
+          <div class="track-item">
+            <img src="img/track 3.png" alt="Track 3" />
+            <p>MIND NOISE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Autobiografia -->
+    <section id="quehago" class="autobiografia" class="scroll-animation">
+      <div class="container">
+        <h2>URZA</h2>
+
+        <!-- Primera fila -->
+        <div class="autobiografia-row">
+          <div class="autobiografia-imagen">
+            <img src="img/img 2 autobio.png" alt="Imagen autobiografía" />
+          </div>
+          <div class="autobiografia-texto">
+            <p>
+              TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE
+              EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO
+              DE EJEMPLO.
+            </p>
+          </div>
+        </div>
+
+        <!-- Segunda fila -->
+        <div class="autobiografia-row reverse">
+          <div class="autobiografia-imagen">
+            <img src="img/img 1 autobio.png" alt="Imagen autobiografía" />
+          </div>
+          <div class="autobiografia-texto">
+            <p>
+              TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE
+              EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO
+              DE EJEMPLO.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tercera fila -->
+        <div class="autobiografia-box">
+          <p>
+            TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO
+            TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO TEXTO DE EJEMPLO.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact stylized">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-text">
+            <h2>¡SALÚDAME!</h2>
+            <p>
+              Todo empieza por mandarme un mensaje, después comienza la magia.
+            </p>
+            <p><strong>SÓLO NOS SEPARAN ESTOS DATOS...</strong></p>
+          </div>
+          <form
+            action="https://formspree.io/f/[YOUR_FORM_ID]"
+            method="POST"
+            class="contact-form"
+          >
+            <input type="text" name="name" placeholder="Nombre" required />
+            <input type="email" name="email" placeholder="E-Mail" required />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+            <button type="submit" class="btn-primary">¡Enviar!</button>
+          </form>
+        </div>
+        <div class="contact-image">
+          <img src="img/contactoimg.png" alt="Contacto URZA" />
+        </div>
+      </div>
+    </section>
+
+    <section id="informacion-personal" class="informacion-personal">
+      <div class="container-info">
+        <div class="info-column">
+          <h4>REDES SOCIALES</h4>
+          <p><a href="https://instagram.com" target="_blank">INSTAGRAM ↗</a></p>
+        </div>
+        <div class="info-column">
+          <h4>LOCALIZACIÓN</h4>
+          <p>MADRID, ESPAÑA</p>
+        </div>
+        <div class="info-column">
+          <h4>TELÉFONO</h4>
+          <p>ESP +34 222 333 444</p>
+        </div>
+        <div class="info-column">
+          <h4>EMAIL</h4>
+          <p><a href="mailto:example@correo.com">PINCHA AQUÍ</a></p>
+        </div>
+      </div>
+      <div class="marca-footer">
+        <h2>THE HOOD STUDIOS</h2>
+        <p>&copy; 2024</p>
+        <p><a href="#top">VOLVER ARRIBA</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 URZA DJ. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    defer
+  ></script>
+  <script src="script.js" defer></script>
+</html>
